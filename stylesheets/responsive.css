@@ -1,0 +1,68 @@
+/*
+-----------------------------------------------
+VIEW 1
+
+- Nav font size decrease
+- Content adjusted to fit same layout
+-----------------------------------------------
+*/
+@media screen and (max-width: 1280px) {
+	.portfolio_item_text {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 1160px) {
+	.portfolio_item_text {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	h1 {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (max-width: 945px) {
+	.portfolio_item_text {
+		font-size: 16px;
+	}
+	.portfolio_item {
+		float: none; display: block; width: 100%; margin-left: 0; margin-bottom: 5%;
+	}
+	.portfolio_item_text {
+		margin-top: -5%;
+	}
+	
+	.about_overlay_content {
+		width: 66%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.portfolio_overlay_content header {
+		width: auto; margin-right: 70px;
+	}
+	.portfolio_overlay_content article, .portfolio_overlay_content .popup_link {
+		padding: 25px; max-width: 100%;
+	}
+	.about_overlay_content {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.portfolio_overlay_content .icon-close {
+		position: static; display: inline-block; top: auto; right: auto;
+		margin-bottom: 20px;
+	}
+	.portfolio_overlay_content header {
+		font-size: inherit; margin-right: o; margin-bottom: 30px;
+	}
+		.portfolio_overlay_content article, .portfolio_overlay_content .popup_link {
+			padding: 30px 10px;
+		}
+	.portfolio_item {
+		margin-bottom: 10%;
+	}
+}
