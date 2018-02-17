@@ -14,7 +14,7 @@ header {
 		position: absolute;
 	}
 	.link-about {
-		color: #fff;
+		color: #fff; font-size: 16px; line-height: 1.3em;
 		background-color: #088dbe;
 		padding: 7px 16px;
 	}
