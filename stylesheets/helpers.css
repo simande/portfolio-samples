@@ -18,3 +18,12 @@
 content: ' ';
 clear: both; display: block;
 }
+
+
+.warning {
+	text-align: center; padding: 2%;
+	border: 1px solid #f39c11; margin-bottom: 35px; background-color: #ffda9f;
+}
+.warning p {
+	margin-bottom: 0; color: #b56f00;
+}
